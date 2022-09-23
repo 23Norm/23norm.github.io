@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap');
+
+*{
+    font-family: 'Bungee Spice', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(138, 21, 109, 0.11);
+}
+
+
+main{
+
+width: 100vw;
+height: 100vh;
+background-color:black;
+display: flex;
+flex-direction: column;
+}
+
+#top{
+    height: 20%;
+    background-color: rgb(66, 65, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#message1{
+
+font-size: 4cm;
+
+}
+
+
+#message{
+   font-size: 2cm;
+   transition: 500ms;
+}
+
+
+#refresh-button{
+
+    position: absolute;
+    left: 0%;
+    margin-left: 1rem;
+}
+
+#refresh{
+    width: 2.5rem;
+    transition: 500ms;
+}
+
+
+
+
+#refresh:hover{
+
+    transform: rotate(180deg);
+}
+
+
+#middle{
+
+    height: 60%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items:center;
+    gap: 0.5em;
+    padding: 0 1em;
+}
+
+.array{ 
+
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    height: 90%;
+    padding: 0.5em;
+
+}
+
+.box{
+
+background-color: rgb(197, 197, 197);
+height: 3.5rem;
+width: 3.5rem;
+display: flex;
+justify-content: center;
+
+}
+
+#bottom{
+
+    height: 20%;
+    background-color: rgba(153, 153, 153, 0.397);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+button,
+input{
+    
+    border-style:groove;
+    height: fit-content;
+    font-size: 2.5rem;
+    font-style:oblique;
+    padding: 0.3rem;
+}
+
+
+
