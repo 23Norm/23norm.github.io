@@ -27,13 +27,12 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     
 }
 
 #message1{
-
 font-size: 4cm;
-
 }
 
 
@@ -42,7 +41,6 @@ font-size: 4cm;
    transition: 500ms;
 }
 
-
 #refresh-button{
 
     position: absolute;
@@ -50,12 +48,11 @@ font-size: 4cm;
     margin-left: 1rem;
 }
 
+
 #refresh{
     width: 2.5rem;
     transition: 500ms;
 }
-
-
 
 
 #refresh:hover{
@@ -110,12 +107,13 @@ justify-content: center;
 button,
 input{
     
-    border-style:groove;
+    border-style:double;
     height: fit-content;
     font-size: 2.5rem;
     font-style:oblique;
-    padding: 0.3rem;
+    padding: 0.4rem;
 }
+
 
 
 
