@@ -35,7 +35,7 @@ document.getElementById('middle').appendChild(array)
       array.appendChild(box)
     }
 
-   array.children[stack.getCurrent].style.backgroundColor = "white"
+   array.children[stack.getCurrent].style.backgroundColor = "Black"
 
 }
 
