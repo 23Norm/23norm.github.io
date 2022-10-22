@@ -22,7 +22,7 @@ flex-direction: column;
 }
 
 #top{
-    height: 20%;
+    height: 15%;
     background-color: rgb(66, 65, 65);
     display: flex;
     align-items: center;
@@ -95,7 +95,7 @@ justify-content: center;
 
 #bottom{
 
-    height: 20%;
+    height: 25%;
     background-color: rgba(153, 153, 153, 0.397);
 
     display: flex;
